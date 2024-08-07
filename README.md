@@ -6,42 +6,77 @@ This project analyzes the relationship between gaming behavior and factors such 
 
 ### Geographic and Demographic Distribution:
 
-40% of players are from the USA.
-60% of players are male.
-The most notable age group is 28-31 years old, making up 12% of the player base.
+- 40% of players are from the USA.
+- 60% of players are male.
+- The most notable age group is 28-31 years old, making up 12% of the player base.
 
 ### Genre Insights:
 
-No specific game genre (Sports, Action, Simulation, Strategy, RPG) stands out in popularity, indicating equal engagement across genres.
+- No specific game genre (Sports, Action, Simulation, Strategy, RPG) stands out in popularity, indicating equal engagement across genres.
 
 ### Engagement Analysis:
 
-Players aged 40-49 demonstrate high engagement levels, playing 137-179 minutes on average. This group comprises 28% of the sample, with 60% being male.
+- Players aged 40-49 demonstrate high engagement levels, playing 137-179 minutes on average. This group comprises 28% of the sample, with 60% being male.
 
 ### Player Level and Difficulty Insights:
 
-Hours played peak at player levels 1-25 and 74-99 (both at 26%).
-Sessions per week are highest at player level 74-99 (26%).
-Engagement is highest with the "Easy" game difficulty, with 50% of players engaged.
+- Hours played peak at player levels 1-25 and 74-99 (both at 26%).
+- Sessions per week are highest at player level 74-99 (26%).
+- Engagement is highest with the "Easy" game difficulty, with 50% of players engaged.
 
 ### Weekly Engagement:
 
-40% of players who play 18-24 hours per week are from the USA.  
-40% of players who have weekly sessions lasting 14-19 weeks are also from the USA.  
+- 40% of players who play 18-24 hours per week are from the USA.  
+- 40% of players who have weekly sessions lasting 14-19 weeks are also from the USA.  
 
 ### Business Optimization Recommendations:  
 
-**Geographic Focus**: Given the high percentage of players from the USA, tailor marketing strategies and game features to this market to maximize engagement and revenue.  
+- **Geographic Focus**: Given the high percentage of players from the USA, tailor marketing strategies and game features to this market to maximize engagement and revenue.  
 
-**Gender and Age-Specific Strategies**: Develop targeted campaigns and content for males aged 40-49, as they represent a highly engaged demographic.  
+- **Gender and Age-Specific Strategies**: Develop targeted campaigns and content for males aged 40-49, as they represent a highly engaged demographic.  
 
-**Genre Diversification**: Since no genre dominates, consider promoting a variety of genres to maintain broad appeal.  
+- **Genre Diversification**: Since no genre dominates, consider promoting a variety of genres to maintain broad appeal.  
 
-**Level and Difficulty Balancing**: Focus on player retention strategies at levels 1-25 and 74-99, and consider optimizing the "Easy" difficulty to sustain high engagement.  
+- **Level and Difficulty Balancing**: Focus on player retention strategies at levels 1-25 and 74-99, and consider optimizing the "Easy" difficulty to sustain high engagement.  
 
-**Subscription Models**: Introduce premium subscriptions or additional content for players who are highly engaged weekly, particularly those playing 18-24 hours.  
+- **Subscription Models**: Introduce premium subscriptions or additional content for players who are highly engaged weekly, particularly those playing 18-24 hours.  
 
 This project demonstrates the value of data-driven insights for optimizing business strategies in the gaming industry, showcasing your ability to analyze and leverage gaming behavior analytics effectively.  
+
+## <p align="center">**Data Cleaning and Range Mapping Script**:</p>
+
+1. Library Imports:
+   - Utilizes pandas for data manipulation and numpy for numerical operations.
+
+2. File Path and Column Selection:
+   - Defines the path to the Parquet file containing the dataset.
+   - Specifies columns of interest, focusing on key metrics related to player demographics and behavior.
+
+3. Data Loading:
+   - Reads the Parquet file, selecting only the specified columns for efficient memory usage.
+
+Data Rounding and Conversion:
+
+Rounds up values in certain numerical columns (e.g., age, playtime hours) and converts them to integers for consistency.
+Range Calculation:
+
+Implements a function to calculate quartile ranges for selected columns, storing these ranges in a dictionary.
+This helps in categorizing continuous data into discrete ranges, which is useful for analysis and visualization.
+Value to Range Mapping:
+
+Defines a function to map individual values to their respective ranges based on the calculated quartiles.
+Applying Range Mapping:
+
+Applies the range mapping to the DataFrame, creating new columns that represent the ranges for the specified numerical columns.
+Data Export:
+
+Saves the cleaned and processed DataFrame to CSV, Parquet, and Excel formats for further analysis and sharing.
+Debugging and Confirmation:
+
+Includes debugging output to verify the correct calculation of ranges.
+Prints a confirmation message upon successful data cleaning.
+
+
 
 ## <p align="center">**Player demographic**:</p>
 ![PlayerDemographics](https://github.com/user-attachments/assets/5a61cd89-4d67-4adc-ab9c-d009260a9999)
