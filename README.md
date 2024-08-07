@@ -55,26 +55,25 @@ This project demonstrates the value of data-driven insights for optimizing busin
 3. Data Loading:
    - Reads the Parquet file, selecting only the specified columns for efficient memory usage.
 
-Data Rounding and Conversion:
+4. Data Rounding and Conversion:
+   - Rounds up values in certain numerical columns (e.g., age, playtime hours) and converts them to integers for consistency.
 
-Rounds up values in certain numerical columns (e.g., age, playtime hours) and converts them to integers for consistency.
-Range Calculation:
+5. Range Calculation:
+   - Implements a function to calculate quartile ranges for selected columns, storing these ranges in a dictionary.
+   - This helps in categorizing continuous data into discrete ranges, which is useful for analysis and visualization.
 
-Implements a function to calculate quartile ranges for selected columns, storing these ranges in a dictionary.
-This helps in categorizing continuous data into discrete ranges, which is useful for analysis and visualization.
-Value to Range Mapping:
+6. Value to Range Mapping:
+   - Defines a function to map individual values to their respective ranges based on the calculated quartiles.
 
-Defines a function to map individual values to their respective ranges based on the calculated quartiles.
-Applying Range Mapping:
+7. Applying Range Mapping:
+   - Applies the range mapping to the DataFrame, creating new columns that represent the ranges for the specified numerical columns.
 
-Applies the range mapping to the DataFrame, creating new columns that represent the ranges for the specified numerical columns.
-Data Export:
+8. Data Export:
+   - Saves the cleaned and processed DataFrame to CSV, Parquet, and Excel formats for further analysis and sharing.
 
-Saves the cleaned and processed DataFrame to CSV, Parquet, and Excel formats for further analysis and sharing.
-Debugging and Confirmation:
-
-Includes debugging output to verify the correct calculation of ranges.
-Prints a confirmation message upon successful data cleaning.
+9. Debugging and Confirmation:
+   - Includes debugging output to verify the correct calculation of ranges.
+   - Prints a confirmation message upon successful data cleaning.
 
 
 
