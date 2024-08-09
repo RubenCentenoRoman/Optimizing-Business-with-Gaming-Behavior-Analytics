@@ -134,3 +134,7 @@ Key Location Insights:
 
 Most players who play 18-24 hours per week are from the USA (40%).  
 Most players who have weekly sessions lasting 14-19 weeks are from the USA (40%).  
+
+## <p align="center">**Acknowledgements**:</p>
+
+- Data obtained from RABIE EL KHAROUA: https://www.kaggle.com/datasets/rabieelkharoua/predict-online-gaming-behavior-dataset/data
