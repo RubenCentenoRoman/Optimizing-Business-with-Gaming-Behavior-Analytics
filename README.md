@@ -2,7 +2,12 @@
 
 This project analyzes the relationship between gaming behavior and factors such as playtime, engagement, and session duration based on game genre, age, gender, difficulty level, player level, and location. The goal is to provide insights into gaming behaviors and their potential impacts across diverse demographics.
 
-## <p align="center">**Summary: The analysis reveals significant insights into video game behaviors among players.**</p>  
+## <p align="center">**Table of Contents**</p>  
+
+1. [Summary](#summary)
+
+
+## <p align="center" name="summary">**Summary: The analysis reveals significant insights into video game behaviors among players.**</p>  
 
 ### Geographic and Demographic Distribution:
 
