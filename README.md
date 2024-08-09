@@ -43,6 +43,19 @@ This project analyzes the relationship between gaming behavior and factors such 
 
 This project demonstrates the value of data-driven insights for optimizing business strategies in the gaming industry, showcasing your ability to analyze and leverage gaming behavior analytics effectively.  
 
+## <p align="center">**Installation**:</p>
+
+This project requires Python 3.11, along with the following Python packages:
+
+- `pandas`
+- `numpy`
+
+You can install these packages using pip:
+
+```sh
+pip install pandas numpy
+```
+
 ## <p align="center">**Data Cleaning and Range Mapping Script**:</p>
 
 1. Library Imports:
