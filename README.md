@@ -5,7 +5,7 @@ This project analyzes the relationship between gaming behavior and factors such 
 ## <p align="center">**Table of Contents**</p>  
 
 1. [Summary](#summary)
-
+2. [Installation](#installation)
 
 ## <p align="center" name="summary">**Summary: The analysis reveals significant insights into video game behaviors among players.**</p>  
 
@@ -48,7 +48,7 @@ This project analyzes the relationship between gaming behavior and factors such 
 
 This project demonstrates the value of data-driven insights for optimizing business strategies in the gaming industry, showcasing your ability to analyze and leverage gaming behavior analytics effectively.  
 
-## <p align="center">**Installation**:</p>
+## <p align="center" name="Installation">**Installation**:</p>
 
 This project requires Python 3.11, along with the following Python packages:
 
