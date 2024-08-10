@@ -6,9 +6,13 @@ This project analyzes the relationship between gaming behavior and factors such 
 
 1. [Summary](#summary)
 2. [Installation](#installation)
-3. [Data cleaning](#data-cleaning)
-4. [Player demographic](#player-demographic)
+3. [Data Cleaning](#data-cleaning)
+4. [Player Demographic](#player-demographic)
 5. [Average Session Duration and Engagement level by Age and Gender](#age-gender)
+6. [Average Session Time vs. Engagement by Genre](#genre)
+7. [Player Level and Difficulty Impact on Play Time & Sessions](#level-difficulty)
+8. [Location Impact on Play Time & Sessions](#location)
+9. [Acknowledgements](#acknowledgements)
 
 ## <p align="center" name="summary">**Summary: The analysis reveals significant insights into video game behaviors among players.**</p>  
 
@@ -118,14 +122,14 @@ Most players that play from 137-179 Minutes on Average, are Males (60% is Male).
 Most players that have a High engagement, are from the ages 40-49 Years old (28% is 40-49 Years old).  
 Most players that have a High engagement, are Males (59% is Male).  
 
-## <p align="center">**Average Session Time vs. Engagement by Genre**:</p>
+## <p align="center" name="genre">**Average Session Time vs. Engagement by Genre**:</p>
 ![GenreAvgSession Engagement](https://github.com/user-attachments/assets/cb498bda-7f9e-4299-90af-e2192aca978e)
 
 Key Genre Insights:
 
 No significant differences were observed in average session duration or engagement level across the different game genres.  
 
-## <p align="center">**Player Level and Difficulty Impact on Play Time & Sessions**:</p>
+## <p align="center" name="level-difficulty">**Player Level and Difficulty Impact on Play Time & Sessions**:</p>
 ![PlayerLevel_Difficulty](https://github.com/user-attachments/assets/fc6f802a-c2ca-4838-b2d6-f4b22f73fb99)
 
 Key Gameplay Insights:
@@ -135,7 +139,7 @@ Sessions per week peaked at player levels 74 to 99, at 26%.
 Hours played peaked at the game difficulty level "Easy," at 50%.  
 Sessions per week peaked at the game difficulty level "Easy," at 50%.  
 
-## <p align="center">**Location Impact on Play Time & Sessions**:</p>
+## <p align="center" name="location">**Location Impact on Play Time & Sessions**:</p>
 ![Location_Hours_Weekly](https://github.com/user-attachments/assets/a9a8e296-ae77-4daa-ac33-2216e4094b01)
 
 Key Location Insights:
@@ -143,6 +147,6 @@ Key Location Insights:
 Most players who play 18-24 hours per week are from the USA (40%).  
 Most players who have weekly sessions lasting 14-19 weeks are from the USA (40%).  
 
-## <p align="center">**Acknowledgements**:</p>
+## <p align="center" name="acknowledgements">**Acknowledgements**:</p>
 
 - Data obtained from RABIE EL KHAROUA: https://www.kaggle.com/datasets/rabieelkharoua/predict-online-gaming-behavior-dataset/data
