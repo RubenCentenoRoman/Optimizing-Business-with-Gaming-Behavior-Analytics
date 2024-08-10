@@ -160,6 +160,6 @@ This project demonstrates the value of data-driven insights for optimizing busin
 
 ## <p align="center" name="acknowledgements">**Acknowledgements**:</p>
 
-- Data obtained from RABIE EL KHAROUA: https://www.kaggle.com/datasets/rabieelkharoua/predict-online-gaming-behavior-dataset/data
+- Data provided and obtained from RABIE EL KHAROUA: https://www.kaggle.com/datasets/rabieelkharoua/predict-online-gaming-behavior-dataset/data
 
 <br><br><br>
