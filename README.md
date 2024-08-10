@@ -7,6 +7,8 @@ This project analyzes the relationship between gaming behavior and factors such 
 1. [Summary](#summary)
 2. [Installation](#installation)
 3. [Data cleaning](#data-cleaning)
+4. [Player demographic](#player-demographic)
+5. [Average Session Duration and Engagement level by Age and Gender](#age-gender)
 
 ## <p align="center" name="summary">**Summary: The analysis reveals significant insights into video game behaviors among players.**</p>  
 
@@ -49,7 +51,7 @@ This project analyzes the relationship between gaming behavior and factors such 
 
 This project demonstrates the value of data-driven insights for optimizing business strategies in the gaming industry, showcasing your ability to analyze and leverage gaming behavior analytics effectively.  
 
-## <p align="center" name="Installation">**Installation**:</p>
+## <p align="center" name="installation">**Installation**:</p>
 
 This project requires Python 3.11, along with the following Python packages:
 
@@ -96,7 +98,7 @@ pip install pandas numpy
 
 
 
-## <p align="center">**Player demographic**:</p>
+## <p align="center" name="player-demographic">**Player demographic**:</p>
 ![PlayerDemographics](https://github.com/user-attachments/assets/5a61cd89-4d67-4adc-ab9c-d009260a9999)
 
 Key Demographic Insights:
@@ -106,7 +108,7 @@ Most players are Male (60% is Male).
 Most players are from ages 28 to 31 Years old (12% are from 28-31 Years old).  
 No game genre is noticeably played more than another (Out of the following: Sports, Action, Simulation, Strategy and RPG).  
   
-## <p align="center">**Average Session Duration and Engagement level by Age and Gender**:</p>
+## <p align="center" name="age-gender">**Average Session Duration and Engagement level by Age and Gender**:</p>
 ![Age Gender_AvgSession Engagement](https://github.com/user-attachments/assets/d769d21b-4a99-44b5-b6aa-18d9248a96a1)
 
 Key Engagement Insights:
