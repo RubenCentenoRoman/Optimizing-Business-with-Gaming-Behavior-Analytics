@@ -15,6 +15,8 @@ This project analyzes the relationship between gaming behavior and factors such 
 9. [Business Optimization Recommendations](#recommendations)
 10. [Acknowledgements](#acknowledgements)
 
+<br>
+
 ## <p align="center" name="summary">**Summary: The analysis reveals significant insights into video game behaviors among players.**</p>  
 
 ### Geographic and Demographic Distribution:
@@ -42,6 +44,8 @@ This project analyzes the relationship between gaming behavior and factors such 
 - 40% of players who play 18–24 hours per week are from the USA.  
 - 40% of players who have weekly sessions lasting 14–19 weeks are also from the USA.  
 
+<br>
+
 ## <p align="center" name="installation">**Installation**:</p>
 
 This project requires Python 3.11, along with the following Python packages:
@@ -54,6 +58,8 @@ You can install these packages using pip:
 ```sh
 pip install pandas numpy
 ```
+
+<br>
 
 ## <p align="center" name="data-cleaning">**Data Cleaning and Range Mapping Script**:</p>
 
@@ -87,52 +93,54 @@ pip install pandas numpy
    - Includes debugging output to verify the correct calculation of ranges.
    - Prints a confirmation message upon successful data cleaning.
 
-
+<br>
 
 ## <p align="center" name="player-demographic">**Player demographic**:</p>
 ![PlayerDemographics](./Chart_Images/PlayerDemographics.png)
 
 Key Demographic Insights:
 
-Most players are from the USA (40% are from the USA).  
-Most players are Male (60% are Male).  
-Most players are from ages 28 to 31 Years old (12% are from 28 to 31 Years old).  
-No game genre is noticeably played more than another (Out of the following: Sports, Action, Simulation, Strategy and RPG).  
+- Most players are from the USA (40% are from the USA).  
+- Most players are Male (60% are Male).  
+- Most players are from ages 28 to 31 Years old (12% are from 28 to 31 Years old).  
+- No game genre is noticeably played more than another (Out of the following: Sports, Action, Simulation, Strategy and RPG).  
   
 ## <p align="center" name="age-gender">**Average Session Duration and Engagement Level by Age and Gender**:</p>
 ![Age Gender_AvgSession Engagement](./Chart_Images/Age&Gender_AvgSession&Engagement.png)
 
 Key Engagement Insights:
 
-Most players that play from 137 to 179 Minutes, on Average, are from the ages of 40 and 49 years old (28% are 40–49 Years old).  
-Most players that play from 137 to 179 Minutes, on Average, are Males (60% are Male).  
-Most players that have a High engagement, are from the ages 40–49 Years old (28% are 40–49 Years old).  
-Most players who have High engagement, are Males (59% are Male).  
+- Most players that play from 137 to 179 Minutes, on Average, are from the ages of 40 and 49 years old (28% are 40–49 Years old).  
+- Most players that play from 137 to 179 Minutes, on Average, are Males (60% are Male).  
+- Most players that have a High engagement, are from the ages 40–49 Years old (28% are 40–49 Years old).  
+- Most players who have High engagement, are Males (59% are Male).  
 
 ## <p align="center" name="genre">**Average Session Time vs. Engagement by Genre**:</p>
 ![GenreAvgSession Engagement](./Chart_Images/GenreAvgSession&Engagement.png)
 
 Key Genre Insights:
 
-No significant differences were observed in average session duration or engagement level across the different game genres.  
+- No significant differences were observed in average session duration or engagement level across the different game genres.  
 
 ## <p align="center" name="level-difficulty">**Player Level and Difficulty Impact on Play Time & Sessions**:</p>
 ![PlayerLevel_Difficulty](./Chart_Images/PlayerLevel_Difficulty.png)
 
 Key Gameplay Insights:
 
-Hours played peaked at player levels 1 to 25 and 74 to 99, both at 26%.  
-Sessions per week peaked at player levels 74 to 99, at 26%.  
-Hours played peaked at the game difficulty level "Easy," at 50%.  
-Sessions per week peaked at the game difficulty level "Easy," at 50%.  
+- Hours played peaked at player levels 1 to 25 and 74 to 99, both at 26%.  
+- Sessions per week peaked at player levels 74 to 99, at 26%.  
+- Hours played peaked at the game difficulty level "Easy," at 50%.  
+- Sessions per week peaked at the game difficulty level "Easy," at 50%.  
 
 ## <p align="center" name="location">**Location Impact on Play Time & Sessions**:</p>
 ![Location_Hours_Weekly](./Chart_Images/Location_Hours_Weekly.png)
 
 Key Location Insights:
 
-Most players who play 18–24 hours per week are from the USA (40%).  
-Most players who have weekly sessions lasting 14–19 weeks are from the USA (40%).  
+- Most players who play 18–24 hours per week are from the USA (40%).  
+- Most players who have weekly sessions lasting 14–19 weeks are from the USA (40%).  
+
+<br>
 
 ## <p align="center" name="recommendations">**Business Optimization Recommendations:**:</p>
 
@@ -148,6 +156,10 @@ Most players who have weekly sessions lasting 14–19 weeks are from the USA (40
 
 This project demonstrates the value of data-driven insights for optimizing business strategies in the gaming industry, showcasing your ability to analyze and leverage gaming behavior analytics effectively.  
 
+<br>
+
 ## <p align="center" name="acknowledgements">**Acknowledgements**:</p>
 
 - Data obtained from RABIE EL KHAROUA: https://www.kaggle.com/datasets/rabieelkharoua/predict-online-gaming-behavior-dataset/data
+
+<br><br><br>
