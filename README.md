@@ -8,7 +8,7 @@ This project analyzes the relationship between gaming behavior and factors such 
 2. [Installation](#installation)
 3. [Data Cleaning](#data-cleaning)
 4. [Player Demographic](#player-demographic)
-5. [Average Session Duration and Engagement level by Age and Gender](#age-gender)
+5. [Average Session Duration and Engagement Level by Age and Gender](#age-gender)
 6. [Average Session Time vs. Engagement by Genre](#genre)
 7. [Player Level and Difficulty Impact on Play Time & Sessions](#level-difficulty)
 8. [Location Impact on Play Time & Sessions](#location)
@@ -19,9 +19,9 @@ This project analyzes the relationship between gaming behavior and factors such 
 
 ### Geographic and Demographic Distribution:
 
-- 40% of players are from the USA.
+- 40% of the players are from the USA.
 - 60% of players are male.
-- The most notable age group is 28-31 years old, making up 12% of the player base.
+- The most notable age group is 28–31 years old, making up 12% of the player base.
 
 ### Genre Insights:
 
@@ -29,18 +29,18 @@ This project analyzes the relationship between gaming behavior and factors such 
 
 ### Engagement Analysis:
 
-- Players aged 40-49 demonstrate high engagement levels, playing 137-179 minutes on average. This group comprises 28% of the sample, with 60% being male.
+- Players aged 40–49 demonstrate high engagement levels, playing 137–179 minutes on average. This group comprises 28% of the sample, with 60% being male.
 
 ### Player Level and Difficulty Insights:
 
-- Hours played peak at player levels 1-25 and 74-99 (both at 26%).
-- Sessions per week are highest at player level 74-99 (26%).
+- Hours played peak at player levels 1–25 and 74–99 (both at 26%).
+- Sessions per week are highest at player levels 74–99 (26%).
 - Engagement is highest with the "Easy" game difficulty, with 50% of players engaged.
 
 ### Weekly Engagement:
 
-- 40% of players who play 18-24 hours per week are from the USA.  
-- 40% of players who have weekly sessions lasting 14-19 weeks are also from the USA.  
+- 40% of players who play 18–24 hours per week are from the USA.  
+- 40% of players who have weekly sessions lasting 14–19 weeks are also from the USA.  
 
 ## <p align="center" name="installation">**Installation**:</p>
 
@@ -58,7 +58,7 @@ pip install pandas numpy
 ## <p align="center" name="data-cleaning">**Data Cleaning and Range Mapping Script**:</p>
 
 1. Library Imports:
-   - Utilizes pandas for data manipulation and numpy for numerical operations.
+   - Utilizes pandas for data manipulation and NumPy for numerical operations.
 
 2. File Path and Column Selection:
    - Defines the path to the Parquet file containing the dataset.
@@ -95,19 +95,19 @@ pip install pandas numpy
 Key Demographic Insights:
 
 Most players are from the USA (40% are from the USA).  
-Most players are Male (60% is Male).  
-Most players are from ages 28 to 31 Years old (12% are from 28-31 Years old).  
+Most players are Male (60% are Male).  
+Most players are from ages 28 to 31 Years old (12% are from 28 to 31 Years old).  
 No game genre is noticeably played more than another (Out of the following: Sports, Action, Simulation, Strategy and RPG).  
   
-## <p align="center" name="age-gender">**Average Session Duration and Engagement level by Age and Gender**:</p>
+## <p align="center" name="age-gender">**Average Session Duration and Engagement Level by Age and Gender**:</p>
 ![Age Gender_AvgSession Engagement](https://github.com/user-attachments/assets/d769d21b-4a99-44b5-b6aa-18d9248a96a1)
 
 Key Engagement Insights:
 
-Most players that play from 137-179 Minutes on Average, are from the ages 40-49 Years old (28% is 40-49 Years old).  
-Most players that play from 137-179 Minutes on Average, are Males (60% is Male).  
-Most players that have a High engagement, are from the ages 40-49 Years old (28% is 40-49 Years old).  
-Most players that have a High engagement, are Males (59% is Male).  
+Most players that play from 137 to 179 Minutes, on Average, are from the ages of 40 and 49 years old (28% are 40–49 Years old).  
+Most players that play from 137 to 179 Minutes, on Average, are Males (60% are Male).  
+Most players that have a High engagement, are from the ages 40–49 Years old (28% are 40–49 Years old).  
+Most players who have High engagement, are Males (59% are Male).  
 
 ## <p align="center" name="genre">**Average Session Time vs. Engagement by Genre**:</p>
 ![GenreAvgSession Engagement](https://github.com/user-attachments/assets/cb498bda-7f9e-4299-90af-e2192aca978e)
@@ -131,8 +131,8 @@ Sessions per week peaked at the game difficulty level "Easy," at 50%.
 
 Key Location Insights:
 
-Most players who play 18-24 hours per week are from the USA (40%).  
-Most players who have weekly sessions lasting 14-19 weeks are from the USA (40%).  
+Most players who play 18–24 hours per week are from the USA (40%).  
+Most players who have weekly sessions lasting 14–19 weeks are from the USA (40%).  
 
 ## <p align="center" name="recommendations">**Business Optimization Recommendations:**:</p>
 
@@ -144,7 +144,7 @@ Most players who have weekly sessions lasting 14-19 weeks are from the USA (40%)
 
 - **Level and Difficulty Balancing**: Focus on player retention strategies at levels 1-25 and 74-99, and consider optimizing the "Easy" difficulty to sustain high engagement.  
 
-- **Subscription Models**: Introduce premium subscriptions or additional content for players who are highly engaged weekly, particularly those playing 18-24 hours.  
+- **Subscription Models**: Introduce premium subscriptions or additional content for players who are highly engaged weekly, particularly those playing 18–24 hours.  
 
 This project demonstrates the value of data-driven insights for optimizing business strategies in the gaming industry, showcasing your ability to analyze and leverage gaming behavior analytics effectively.  
 
