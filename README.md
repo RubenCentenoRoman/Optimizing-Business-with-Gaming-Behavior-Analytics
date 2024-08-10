@@ -12,7 +12,8 @@ This project analyzes the relationship between gaming behavior and factors such 
 6. [Average Session Time vs. Engagement by Genre](#genre)
 7. [Player Level and Difficulty Impact on Play Time & Sessions](#level-difficulty)
 8. [Location Impact on Play Time & Sessions](#location)
-9. [Acknowledgements](#acknowledgements)
+9. [Business Optimization Recommendations](#recommendations)
+10. [Acknowledgements](#acknowledgements)
 
 ## <p align="center" name="summary">**Summary: The analysis reveals significant insights into video game behaviors among players.**</p>  
 
@@ -40,20 +41,6 @@ This project analyzes the relationship between gaming behavior and factors such 
 
 - 40% of players who play 18-24 hours per week are from the USA.  
 - 40% of players who have weekly sessions lasting 14-19 weeks are also from the USA.  
-
-### Business Optimization Recommendations:  
-
-- **Geographic Focus**: Given the high percentage of players from the USA, tailor marketing strategies and game features to this market to maximize engagement and revenue.  
-
-- **Gender and Age-Specific Strategies**: Develop targeted campaigns and content for males aged 40-49, as they represent a highly engaged demographic.  
-
-- **Genre Diversification**: Since no genre dominates, consider promoting a variety of genres to maintain broad appeal.  
-
-- **Level and Difficulty Balancing**: Focus on player retention strategies at levels 1-25 and 74-99, and consider optimizing the "Easy" difficulty to sustain high engagement.  
-
-- **Subscription Models**: Introduce premium subscriptions or additional content for players who are highly engaged weekly, particularly those playing 18-24 hours.  
-
-This project demonstrates the value of data-driven insights for optimizing business strategies in the gaming industry, showcasing your ability to analyze and leverage gaming behavior analytics effectively.  
 
 ## <p align="center" name="installation">**Installation**:</p>
 
@@ -146,6 +133,20 @@ Key Location Insights:
 
 Most players who play 18-24 hours per week are from the USA (40%).  
 Most players who have weekly sessions lasting 14-19 weeks are from the USA (40%).  
+
+## <p align="center" name="recommendations">**Business Optimization Recommendations:**:</p>
+
+- **Geographic Focus**: Given the high percentage of players from the USA, tailor marketing strategies and game features to this market to maximize engagement and revenue.  
+
+- **Gender and Age-Specific Strategies**: Develop targeted campaigns and content for males aged 40-49, as they represent a highly engaged demographic.  
+
+- **Genre Diversification**: Since no genre dominates, consider promoting a variety of genres to maintain broad appeal.  
+
+- **Level and Difficulty Balancing**: Focus on player retention strategies at levels 1-25 and 74-99, and consider optimizing the "Easy" difficulty to sustain high engagement.  
+
+- **Subscription Models**: Introduce premium subscriptions or additional content for players who are highly engaged weekly, particularly those playing 18-24 hours.  
+
+This project demonstrates the value of data-driven insights for optimizing business strategies in the gaming industry, showcasing your ability to analyze and leverage gaming behavior analytics effectively.  
 
 ## <p align="center" name="acknowledgements">**Acknowledgements**:</p>
 
