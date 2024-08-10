@@ -6,6 +6,7 @@ This project analyzes the relationship between gaming behavior and factors such 
 
 1. [Summary](#summary)
 2. [Installation](#installation)
+3. [Data cleaning](#data-cleaning)
 
 ## <p align="center" name="summary">**Summary: The analysis reveals significant insights into video game behaviors among players.**</p>  
 
@@ -61,7 +62,7 @@ You can install these packages using pip:
 pip install pandas numpy
 ```
 
-## <p align="center">**Data Cleaning and Range Mapping Script**:</p>
+## <p align="center" name="data-cleaning">**Data Cleaning and Range Mapping Script**:</p>
 
 1. Library Imports:
    - Utilizes pandas for data manipulation and numpy for numerical operations.
