@@ -90,7 +90,7 @@ pip install pandas numpy
 
 
 ## <p align="center" name="player-demographic">**Player demographic**:</p>
-![PlayerDemographics](https://github.com/user-attachments/assets/5a61cd89-4d67-4adc-ab9c-d009260a9999)
+![PlayerDemographics](./Chart_Images/PlayerDemographics.png)
 
 Key Demographic Insights:
 
@@ -100,7 +100,7 @@ Most players are from ages 28 to 31 Years old (12% are from 28 to 31 Years old).
 No game genre is noticeably played more than another (Out of the following: Sports, Action, Simulation, Strategy and RPG).  
   
 ## <p align="center" name="age-gender">**Average Session Duration and Engagement Level by Age and Gender**:</p>
-![Age Gender_AvgSession Engagement](https://github.com/user-attachments/assets/d769d21b-4a99-44b5-b6aa-18d9248a96a1)
+![Age Gender_AvgSession Engagement](./Chart_Images/Age&Gender_AvgSession&Engagement.png)
 
 Key Engagement Insights:
 
@@ -110,14 +110,14 @@ Most players that have a High engagement, are from the ages 40–49 Years old (2
 Most players who have High engagement, are Males (59% are Male).  
 
 ## <p align="center" name="genre">**Average Session Time vs. Engagement by Genre**:</p>
-![GenreAvgSession Engagement](https://github.com/user-attachments/assets/cb498bda-7f9e-4299-90af-e2192aca978e)
+![GenreAvgSession Engagement](./Chart_Images/GenreAvgSession&Engagement.png)
 
 Key Genre Insights:
 
 No significant differences were observed in average session duration or engagement level across the different game genres.  
 
 ## <p align="center" name="level-difficulty">**Player Level and Difficulty Impact on Play Time & Sessions**:</p>
-![PlayerLevel_Difficulty](https://github.com/user-attachments/assets/fc6f802a-c2ca-4838-b2d6-f4b22f73fb99)
+![PlayerLevel_Difficulty](./Chart_Images/PlayerLevel_Difficulty.png)
 
 Key Gameplay Insights:
 
@@ -127,7 +127,7 @@ Hours played peaked at the game difficulty level "Easy," at 50%.
 Sessions per week peaked at the game difficulty level "Easy," at 50%.  
 
 ## <p align="center" name="location">**Location Impact on Play Time & Sessions**:</p>
-![Location_Hours_Weekly](https://github.com/user-attachments/assets/a9a8e296-ae77-4daa-ac33-2216e4094b01)
+![Location_Hours_Weekly](./Chart_Images/Location_Hours_Weekly.png)
 
 Key Location Insights:
 
